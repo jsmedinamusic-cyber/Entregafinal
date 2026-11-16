@@ -37,7 +37,7 @@ git clone (https://github.com/jsmedinamusic-cyber)
 
 ### 2. Ingresar al directorio
 ```bash
-cd primermomento
+cd Entregafinal
 ```
 
 ### 3. Visualizar el proyecto
