@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Academia Yudan</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    
+    <header class="barra">
+        <div class="marca">
+            
+            <img src="img/logo.svg" alt="Logo" class="logo">
+            <span>Academia Yudan</span>
+        </div>
+
+        <nav class="menu">
+            <button class="activo" data-seccion="inicio">Inicio</button>
+            <button data-seccion="notas">Notas</button>
+            <button data-seccion="clases">Clases</button>
+        </nav>
+
+        <div class="usuario">
+            <span id="nombreUsuario"></span>
+            <button id="cerrarSesion">Cerrar sesión</button>
+        </div>
+    </header>
+
+    <main class="contenido">
+
+        
+        <section id="inicio" class="seccion">
+            <h1>Bienvenido, <span id="nombreBienvenida"></span> 🎓</h1>
+            <div class="tarjeta">
+                <h2>Inicio</h2>
+        
+            </div>
+        </section>
+
+    
+        <section id="notas" class="seccion oculto">
+            <h1>Notas</h1>
+            <div class="tarjeta">
+                <h2>Mis calificaciones</h2>
+            
+            </div>
+        </section>
+
+        
+        <section id="clases" class="seccion oculto">
+            <h1>Clases</h1>
+            <div class="tarjeta">
+                <h2>Mis clases</h2>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
