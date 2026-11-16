@@ -49,3 +49,5 @@ Al estar en fase inicial de maquetación, puedes abrir el archivo principal (`in
 
 *   **Fase Actual:** Maquetación inicial, arquitectura de carpetas y lenguaje basico de ingreso.
 *   **Próximo Paso:** Integración de componentes dinámicos y estilos responsivos.
+  -Proyecto en Jira
+https://palacioyenifer387.atlassian.net/jira/software/projects/PM/boards/36/backlog
