@@ -72,6 +72,7 @@ Contenido del dashboard: escribe el texto dentro de las tarjetas (.tarjeta) de c
 
 Este es un proyecto académico, así que tiene límites a tener en cuenta:
 
+<<<<<<< HEAD
 No es seguro para producción: las contraseñas se guardan en texto plano en el navegador y cualquiera con acceso a él puede verlas.
 Los datos son locales: cada navegador tiene sus propios usuarios; no se comparten entre dispositivos.
 El bloqueo por intentos es temporal: el contador vive en memoria, así que se reinicia al recargar la página.
@@ -86,3 +87,29 @@ HTML5
 CSS3
 JavaScript (ES6+) con localStorage y fetch
 Git y GitHub para el control de versiones
+=======
+### 1. Clonar el repositorio
+Abre tu terminal y ejecuta el siguiente comando:
+```bash
+git clone (https://github.com/jsmedinamusic-cyber)
+```
+
+### 2. Ingresar al directorio
+```bash
+cd Entregafinal
+```
+
+### 3. Visualizar el proyecto
+Al estar en fase inicial de maquetación, puedes abrir el archivo principal (`index.html`) directamente en tu navegador o utilizar la extensión **Live Server** en VS Code para ver los cambios en tiempo real.
+
+---
+
+## 📅 Estado del Proyecto
+
+*   **Fase Actual:** Maquetación inicial, arquitectura de carpetas y lenguaje basico de ingreso.
+*   **Próximo Paso:** Integración de componentes dinámicos y estilos responsivos.
+
+
+ -Proyecto en Jira
+https://palacioyenifer387.atlassian.net/jira/software/projects/PM/boards/36/backlog
+>>>>>>> 16cbac6cf82ffd543fdce54d831959bc31599fa7

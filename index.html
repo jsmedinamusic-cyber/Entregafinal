@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar sesión - Academia Yudan</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/login.js" defer></script>
+    <script src="js/cargarUsuarios.js" defer></script>
 </head>
 <body>
 
     <form id="formLogin">
+
         <img src="img/logo.svg" alt="Logo" class="logo-form">
         <h2>Iniciar sesión</h2>
         <input type="text" id="loginUsuario" placeholder="Usuario" required>
@@ -16,9 +19,9 @@
         <button type="submit">Entrar</button>
         <p id="mensajeLogin"></p>
         <a href="registro.html">¿No tienes cuenta? Regístrate</a>
+        
     </form>
 
-    <script src="js/cargarUsuarios.js"></script>
-    <script src="js/login.js"></script>
+
 </body>
 </html>
