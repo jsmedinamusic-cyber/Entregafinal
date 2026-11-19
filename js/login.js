@@ -13,7 +13,7 @@ formLogin.onsubmit = async function (evento) {
     evento.preventDefault();
     if (bloqueado) return;
 
-    // Asegura que los usuarios del .json estén en el localStorage
+    
     await cargarUsuarios();
 
     const usuario = document.getElementById("loginUsuario").value.trim();
@@ -34,7 +34,7 @@ formLogin.onsubmit = async function (evento) {
     }
 
     if (encontrado !== null) {
-        // Guardar quién inició sesión
+        
         localStorage.setItem("sesionActiva", JSON.stringify({
             nombre: encontrado.nombre,
             usuario: encontrado.usuario

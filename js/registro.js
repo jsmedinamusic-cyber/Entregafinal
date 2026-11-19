@@ -13,7 +13,7 @@ function obtenerUsuarios() {
 formRegistro.onsubmit = async function (evento) {
     evento.preventDefault();
 
-    // Asegura que los usuarios del .json estén en el localStorage
+
     await cargarUsuarios();
 
     const nombre = document.getElementById("regNombre").value.trim();

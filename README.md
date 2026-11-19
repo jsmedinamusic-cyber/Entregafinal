@@ -106,8 +106,8 @@ Al estar en fase inicial de maquetación, puedes abrir el archivo principal (`in
 
 ## 📅 Estado del Proyecto
 
-*   **Fase Actual:** Maquetación inicial, arquitectura de carpetas y lenguaje basico de ingreso.
-*   **Próximo Paso:** Integración de componentes dinámicos y estilos responsivos.
+**Fase Actual:** Maquetación inicial, arquitectura de carpetas y lenguaje basico de ingreso.
+**Próximo Paso:** Integración de componentes dinámicos y estilos responsivos.
 
 
  -Proyecto en Jira
